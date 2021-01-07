@@ -15,6 +15,10 @@ __all__ = [
     "budgie",
     "lxqt",
     "lxde",
+    "cinnamon",
+    "mate",
+    "ukui",
+    "i3",
 ]  # TODO generate automatically
 
 ALL_MODULES: set["BaseModule"] = set()

@@ -18,7 +18,7 @@ some window managers (i3, sway…):
 
 - Desktop Environments:
   - [x] Budgie
-  - [ ] Cinnamon
+  - [x] Cinnamon
   - [ ] **WIP** Deepin (need to proceed through setup wizard)
   - [ ] **WIP** Enlightenment (need to proceed through setup wizard)
   - [x] GNOME
@@ -26,12 +26,12 @@ some window managers (i3, sway…):
   - [x] KDE Plasma
   - [x] LXDE (gtk3 version)
   - [ ] **WIP** LXQt (completely unreadable, needs debugging)
-  - [ ] MATE
+  - [x] MATE
   - [ ] **WIP** Sugar (need to proceed through setup wizard)
-  - [ ] UKUI
+  - [x] UKUI
   - [x] Xfce
 - Window managers
-  - [ ] i3
+  - [x] i3
   - [x] sway
 
 I'm open to adding more environments to this list, if it's not too hard to setup
