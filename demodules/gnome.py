@@ -6,4 +6,4 @@ class Gnome(BaseModule):
     name = "Gnome"
     dependencies = ["gnome"]
     startup_env = {"XDG_SESSION_TYPE": "x11", "GDK_BACKEND": "x11"}
-    startup_cmd = "dbus-run-session gnome-session"
+    startup_cmd = "startx /usr/bin/gnome-session"
