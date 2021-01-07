@@ -17,17 +17,17 @@ All the DEs that are listed as 'Officially supported' on the ArchWiki, but also
 some window managers (i3, sway…):
 
 - Desktop Environments:
-  - [ ] Budgie
+  - [x] Budgie
   - [ ] Cinnamon
-  - [ ] Deepin
+  - [ ] **WIP** Deepin (need to proceed through setup wizard)
   - [ ] **WIP** Enlightenment (need to proceed through setup wizard)
   - [x] GNOME
-  - [ ] GNOME Flashback
+  - [x] GNOME Flashback
   - [x] KDE Plasma
   - [ ] LXDE (gtk3 version)
   - [ ] LXQt
   - [ ] MATE
-  - [ ] Sugar
+  - [ ] **WIP** Sugar (need to proceed through setup wizard)
   - [ ] UKUI
   - [x] Xfce
 - Window managers

@@ -3,7 +3,17 @@ import os
 from subprocess import run
 from typing import Collection, Dict, Optional
 
-__all__ = ["gnome", "sway", "plasma", "enlightenment", "xfce4"]  # TODO generate automatically
+__all__ = [
+    "gnome",
+    "sway",
+    "plasma",
+    "enlightenment",
+    "xfce4",
+    "deepin",
+    "sugar",
+    "gnome_flashback",
+    "budgie",
+]  # TODO generate automatically
 
 ALL_MODULES: set["BaseModule"] = set()
 
