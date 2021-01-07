@@ -31,9 +31,8 @@ Vagrant.configure("2") do |config|
     cp /vagrant/getty_override.conf /etc/systemd/system/getty@tty1.service.d/override.conf
 
     # install common requirements
-    pacman -Syu --noconfirm python pyalpm xorg-server xorg-xinit wayland grim scrot gdm --ignore linux,linux-firmware
+    pacman -Syu --noconfirm python pyalpm xorg-server xorg-xinit wayland grim scrot --ignore linux,linux-firmware
 
-    echo "\n[daemon]\nAutomaticLogin=deshowcase\nAutomaticLoginEnable=True" >> /etc/gdm/custom.conf
     python /vagrant/script.py
     poweroff
   SHELL
