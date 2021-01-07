@@ -13,6 +13,8 @@ __all__ = [
     "sugar",
     "gnome_flashback",
     "budgie",
+    "lxqt",
+    "lxde",
 ]  # TODO generate automatically
 
 ALL_MODULES: set["BaseModule"] = set()
