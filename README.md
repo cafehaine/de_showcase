@@ -1,4 +1,5 @@
 # Desktop Environment Showcase
+## What is DE Showcase?
 
 Desktop Environment Showcase is a small project meant to create screenshot of
 'stock' configurations of most Linux desktop environments.
@@ -9,3 +10,29 @@ the setup and startup of each desktop environment.
 I've built this since those UIs tend to change regularly, but I'm too lazy to
 create VMs to try those out regularly, so creating screenshots of the desktop
 is a good compromise in my opinion.
+
+## What DE am I planning to support?
+
+All the DEs that are listed as 'Officially supported' on the ArchWiki, but also
+some window managers (i3, sway…):
+
+- Desktop Environments:
+  - [ ] Budgie
+  - [ ] Cinnamon
+  - [ ] Deepin
+  - [ ] Enlightenment
+  - [x] GNOME
+  - [ ] GNOME Flashback
+  - [x] KDE Plasma
+  - [ ] LXDE (gtk3 version)
+  - [ ] LXQt
+  - [ ] MATE
+  - [ ] Sugar
+  - [ ] UKUI
+  - [ ] Xfce
+- Window managers
+  - [ ] i3
+  - [x] sway
+
+I'm open to adding more environments to this list, if it's not too hard to setup
+on Arch Linux.
