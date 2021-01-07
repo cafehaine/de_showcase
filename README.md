@@ -20,7 +20,7 @@ some window managers (i3, sway…):
   - [ ] Budgie
   - [ ] Cinnamon
   - [ ] Deepin
-  - [ ] Enlightenment
+  - [ ] **WIP** Enlightenment (need to proceed through setup wizard)
   - [x] GNOME
   - [ ] GNOME Flashback
   - [x] KDE Plasma
@@ -29,7 +29,7 @@ some window managers (i3, sway…):
   - [ ] MATE
   - [ ] Sugar
   - [ ] UKUI
-  - [ ] Xfce
+  - [x] Xfce
 - Window managers
   - [ ] i3
   - [x] sway
