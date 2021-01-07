@@ -6,3 +6,4 @@ class LXDE(BaseModule):
     name = "LXDE"
     dependencies = ["lxde-gtk3"]
     startup_cmd = "startx /usr/bin/startlxde"
+    has_autostart = True

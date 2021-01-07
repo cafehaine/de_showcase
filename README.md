@@ -23,7 +23,7 @@ some window managers (i3, sway…):
   - [ ] **WIP** Enlightenment (need to proceed through setup wizard)
   - [x] GNOME
   - [x] GNOME Flashback
-  - [x] KDE Plasma
+  - [ ] **WIP** KDE Plasma (no longer starts)
   - [x] LXDE (gtk3 version)
   - [ ] **WIP** LXQt (completely unreadable, needs debugging)
   - [x] MATE

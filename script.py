@@ -19,10 +19,7 @@ def main():
         # start de
         instance.start()
         # wait for the de to be ready
-        time.sleep(20)  # TODO xdg autostart that sends a signal?
-        # take screenshot
-        # TODO set the screen resolution (800x600?)
-        # TODO scrot/grim
+        time.sleep(30)  # TODO listen for a screenshot_script.sh signal
         # disconnect
         instance.stop()
         # Cleanup files

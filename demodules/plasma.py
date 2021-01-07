@@ -7,3 +7,4 @@ class Plasma(BaseModule):
     dependencies = ["plasma"]
     startup_env = {"XDG_SESSION_TYPE": "wayland"}
     startup_cmd = "dbus-run-session startplasma-wayland"
+    has_autostart = True

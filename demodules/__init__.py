@@ -29,12 +29,17 @@ class BaseModule(ABC):
     dependencies: Collection[str] = []
     startup_env: Dict[str, str] = {}
     startup_cmd: str = "exit 1"
+    has_autostart: bool = False
 
     def start(self):
         with open("/home/deshowcase/gui", "w") as output:
             output.write("#!/bin/bash\n")
             for key, value in self.startup_env.items():
                 output.write(f"export {key}={value}\n")
+            output.write(f"export DE_NAME='{self.name}'\n")
+            if not self.has_autostart:
+                # relatively safe delay, should be fine on most computers
+                output.write(f"sleep 20 && screenshot_script.sh&\n")
             output.write(f"{self.startup_cmd}\n")
 
         os.chmod("/home/deshowcase/gui", 0o755)

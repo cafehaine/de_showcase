@@ -6,3 +6,4 @@ class LXQt(BaseModule):
     name = "LXQt"
     dependencies = ["lxqt", "breeze-icons"]
     startup_cmd = "startx /usr/bin/startlxqt"
+    has_autostart = True

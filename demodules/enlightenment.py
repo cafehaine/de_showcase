@@ -6,3 +6,4 @@ class Enlightenment(BaseModule):
     name = "Enlightenment"
     dependencies = ["enlightenment"]
     startup_cmd = "startx /usr/bin/enlightenment_start"
+    has_autostart = True

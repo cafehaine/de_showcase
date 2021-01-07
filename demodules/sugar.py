@@ -6,3 +6,4 @@ class Sugar(BaseModule):
     name = "Sugar"
     dependencies = ["sugar", "sugar-fructose", "sugar-runner"]
     startup_cmd = "sugar-runner"
+    has_autostart = True

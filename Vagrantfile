@@ -33,6 +33,11 @@ Vagrant.configure("2") do |config|
     # install common requirements
     pacman -Syu --noconfirm python pyalpm xorg-server xorg-xinit wayland grim scrot --ignore linux,linux-firmware
 
+    # install the screenshot script
+    cp /vagrant/screenshot_script.sh /usr/bin/screenshot_script.sh
+    chmod +x /usr/bin/screenshot_script.sh
+    cp /vagrant/screenshot.desktop /etc/xdg/autostart/screenshot.desktop
+
     python /vagrant/script.py
     poweroff
   SHELL
