@@ -32,7 +32,7 @@ class BaseModule(ABC):
     has_autostart: bool = False
 
     def start(self):
-        with open("/home/deshowcase/gui", "w") as output:
+        with open("/home/vagrant/gui", "w") as output:
             output.write("#!/bin/bash\n")
             for key, value in self.startup_env.items():
                 output.write(f"export {key}={value}\n")
@@ -42,7 +42,7 @@ class BaseModule(ABC):
                 output.write(f"sleep 20 && screenshot_script.sh&\n")
             output.write(f"{self.startup_cmd}\n")
 
-        os.chmod("/home/deshowcase/gui", 0o755)
+        os.chmod("/home/vagrant/gui", 0o755)
 
         run(["systemctl", "start", "getty@tty1.service"], check=True)
 

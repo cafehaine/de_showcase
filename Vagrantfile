@@ -23,20 +23,22 @@ Vagrant.configure("2") do |config|
     systemctl stop getty@tty1.service
 
     # Add a user that will auto login, and setup a bashrc
-    useradd -m deshowcase
-    cp /vagrant/bashrc /home/deshowcase/.bashrc
+    cp /vagrant/bashrc /home/vagrant/.bashrc
 
-    # Enable autologin for tty1 for deshowcase
+    # Enable autologin for tty1 for vagrant
     mkdir -p /etc/systemd/system/getty@tty1.service.d
     cp /vagrant/getty_override.conf /etc/systemd/system/getty@tty1.service.d/override.conf
 
     # install common requirements
-    pacman -Syu --noconfirm python pyalpm xorg-server xorg-xinit wayland grim scrot --ignore linux,linux-firmware
+    pacman -Syu --noconfirm python pyalpm xorg-server xorg-xinit wayland grim scrot gnu-netcat --ignore linux,linux-firmware
 
     # install the screenshot script
     cp /vagrant/screenshot_script.sh /usr/bin/screenshot_script.sh
-    chmod +x /usr/bin/screenshot_script.sh
+    chmod 755 /usr/bin/screenshot_script.sh
+    mkdir -p /etc/xdg/autostart
     cp /vagrant/screenshot.desktop /etc/xdg/autostart/screenshot.desktop
+    chmod 644 /etc/xdg/autostart/screenshot.desktop
+    mkdir -p /vagrant/screenshots
 
     python /vagrant/script.py
     poweroff
