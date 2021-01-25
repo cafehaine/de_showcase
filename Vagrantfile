@@ -30,11 +30,11 @@ Vagrant.configure("2") do |config|
     cp /vagrant/getty_override.conf /etc/systemd/system/getty@tty1.service.d/override.conf
 
     # install common requirements
-    pacman -Syu --noconfirm python pyalpm xorg-server xorg-xinit wayland grim scrot gnu-netcat --ignore linux,linux-firmware
+    pacman -Syu --noconfirm python python-psutil pyalpm xorg-server xorg-xinit wayland grim scrot --ignore linux,linux-firmware
 
     # install the screenshot script
-    cp /vagrant/screenshot_script.sh /usr/bin/screenshot_script.sh
-    chmod 755 /usr/bin/screenshot_script.sh
+    cp /vagrant/screenshot_script.py /usr/bin/screenshot_script.py
+    chmod 755 /usr/bin/screenshot_script.py
     mkdir -p /etc/xdg/autostart
     cp /vagrant/screenshot.desktop /etc/xdg/autostart/screenshot.desktop
     chmod 644 /etc/xdg/autostart/screenshot.desktop

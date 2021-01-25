@@ -2,4 +2,4 @@
 Type=Application
 Version=1.0
 Name=screenshot
-Exec=/usr/bin/screenshot_script.sh
+Exec=/usr/bin/screenshot_script.py
