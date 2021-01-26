@@ -5,4 +5,5 @@ from demodules import register_module, BaseModule
 class Sway(BaseModule):
     name = "Sway"
     dependencies = ["sway"]
-    startup_cmd = "sway"
+    startup_cmd = "screenshot_script.py sway"
+    has_autostart = True
