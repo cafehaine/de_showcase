@@ -5,5 +5,5 @@ from demodules import register_module, BaseModule
 class Deepin(BaseModule):
     name = "Deepin"
     dependencies = ["deepin", "deepin-extra"]
-    startup_cmd = "startx /usr/bin/startdde"
-    has_autostart = True
+    startup_cmd = "/usr/bin/startdde"
+    has_autostart = False

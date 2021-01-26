@@ -38,9 +38,9 @@ class BaseModule(ABC):
                 output.write(f"export {key}={value}\n")
             output.write(f"export DE_NAME='{self.name}'\n")
             if not self.has_autostart:
-                # relatively safe delay, should be fine on most computers
-                output.write(f"sleep 10 && screenshot_script.py&\n")
-            output.write(f"{self.startup_cmd}\n")
+                output.write(f"startx /usr/bin/screenshot_script.py {self.startup_cmd}\n")
+            else:
+                output.write(f"{self.startup_cmd}\n")
 
         os.chmod("/home/vagrant/gui", 0o755)
 

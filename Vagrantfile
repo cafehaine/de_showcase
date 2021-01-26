@@ -21,6 +21,7 @@ Vagrant.configure("2") do |config|
 
     # Stop getty for tty1
     systemctl stop getty@tty1.service
+    systemctl disable getty@tty1.service
 
     # Add a user that will auto login, and setup a bashrc
     cp /vagrant/bashrc /home/vagrant/.bashrc
