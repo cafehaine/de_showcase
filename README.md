@@ -1,4 +1,7 @@
 # Desktop Environment Showcase
+
+![Captures taken by DE Showcase](.preview.png)
+
 ## What is DE Showcase?
 
 Desktop Environment Showcase is a small project meant to create screenshot of
