@@ -28,7 +28,7 @@ some window managers (i3, sway…):
   - [x] GNOME Flashback
   - [x] KDE Plasma
   - [x] LXDE (gtk3 version)
-  - [ ] **WIP** LXQt (completely unreadable, needs debugging)
+  - [x] LXQt
   - [x] MATE
   - [ ] **WIP** Sugar (need to proceed through setup wizard)
   - [x] UKUI
