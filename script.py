@@ -10,11 +10,13 @@ from demodules import ALL_MODULES, BaseModule
 from pacman import Pacman
 
 SOCK_PORT = 1042
-SOCK_MESSAGE = b'OK\n'
+SOCK_MESSAGE = b"OK\n"
 SOCK_TIMEOUT = 30
+
 
 class InvalidMessage(ValueError):
     pass
+
 
 def wait_socket(sock: socket.socket) -> None:
     sock.settimeout(30)
@@ -55,7 +57,7 @@ def handle_module(pacman: Pacman, instance: BaseModule, sock: socket.socket) -> 
 
 def main():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
-        sock.bind(('', SOCK_PORT))
+        sock.bind(("", SOCK_PORT))
         sock.listen(1)
         pacman = Pacman()
         for Module in ALL_MODULES:

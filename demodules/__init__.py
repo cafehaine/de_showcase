@@ -38,7 +38,9 @@ class BaseModule(ABC):
                 output.write(f"export {key}={value}\n")
             output.write(f"export DE_NAME='{self.name}'\n")
             if not self.has_autostart:
-                output.write(f"startx /usr/bin/screenshot_script.py {self.startup_cmd}\n")
+                output.write(
+                    f"startx /usr/bin/screenshot_script.py {self.startup_cmd}\n"
+                )
             else:
                 output.write(f"{self.startup_cmd}\n")
 
