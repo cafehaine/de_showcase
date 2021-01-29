@@ -22,7 +22,7 @@ some window managers (i3, sway…):
 - Desktop Environments:
   - [x] Budgie
   - [x] Cinnamon
-  - [ ] **WIP** Deepin (need to proceed through setup wizard)
+  - [x] Deepin
   - [ ] **WIP** Enlightenment (need to proceed through setup wizard)
   - [x] GNOME
   - [x] GNOME Flashback
