@@ -39,3 +39,12 @@ some window managers (i3, sway…):
 
 I'm open to adding more environments to this list, if it's not too hard to setup
 on Arch Linux.
+
+## How to generate the `.preview.png` file?
+
+After running `vagrant up` to generate all screenshots, run the following image
+magick command:
+
+```bash
+montage -geometry 320x240+10+10 -shadow -background none screenshots/*.png .preview.png
+```
