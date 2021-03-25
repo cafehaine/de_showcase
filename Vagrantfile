@@ -40,7 +40,7 @@ Vagrant.configure("2") do |config|
     chmod 644 /etc/xdg/autostart/screenshot.desktop
     mkdir -p /vagrant/screenshots
 
-    python /vagrant/script.py
+    python -u /vagrant/script.py
     poweroff
   SHELL
 end
