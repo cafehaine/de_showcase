@@ -36,6 +36,19 @@ some window managers (i3, sway…):
 - Window managers
   - [x] i3
   - [x] sway
+  - [ ] Awesome WM
+  - [ ] DWM
+  - [ ] Xmonad
+  - [ ] ibis
+  - [ ] bspwm
+  - [ ] XtermWM
+  - [ ] 9wm
+  - [ ] dynamic desktop environment
+  - [ ] IceWM
+  - [ ] Spectrwm
+  - [ ] Openbox
+  - [ ] Fluxbox
+  - [ ] herbstluftwm
 
 I'm open to adding more environments to this list, if it's not too hard to setup
 on Arch Linux.
