@@ -20,6 +20,39 @@ All the DEs that are listed as 'Officially supported' on the ArchWiki, but also
 some window managers (i3, sway…):
 
 - Desktop Environments:
+  - [ ] XFCE4
+  - [ ] snakeware desktop
+  - [ ] SharpEnviro
+  - [ ] eXtern-OS desktop
+  - [ ] Durden desktop environment for the [Arcan](https://www.arcan-fe.com/) Display Server
+  - [ ] Regolith Desktop Environment
+  - [ ] jappeOsDesktop
+  - [ ] CutefishOS
+  - [ ] VIM-OS(Desktop environment based on VIM only)
+  - [ ] NightOS(Desktop environment NightOS)
+  - [ ] Draco Desktop Environment
+  - [ ] Budgie
+  - [ ] fynedesk(desktop environment for fynedesk-os)
+  - [ ] Nadva(official desktop environment AvdanOS)
+  - [ ] lumina
+  - [ ] jde(some desktop environment in manjaro)
+  - [ ] Cosmic(popOS)
+  - [ ] NeXTSTEP
+  - [ ] Desktop environment for Wayland
+  - [ ] MoonLightDE
+  - [ ] mapeo-desktop
+  - [ ] daedalOS
+  - [ ] Jade
+  - [ ] Unity
+  - [ ] Phosh core
+  - [ ] Abanu(Desktop Environment for Windows and Linux)
+  - [ ] Pantheon 
+  - [ ] TOS Desktop Environment
+  - [ ] Trinity Desktop Environment
+  - [ ] Laniakea Desktop Environment
+  - [ ] Enlightenment 
+  - [ ] Deepin
+  - [ ] AtomOS Desktop Environment
   - [x] Budgie
   - [x] Cinnamon
   - [x] Deepin
