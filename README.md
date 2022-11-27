@@ -31,7 +31,6 @@ some window managers (i3, sway…):
   - [ ] VIM-OS(Desktop environment based on VIM only)
   - [ ] NightOS(Desktop environment NightOS)
   - [ ] Draco Desktop Environment
-  - [ ] Budgie
   - [ ] fynedesk(desktop environment for fynedesk-os)
   - [ ] Nadva(official desktop environment AvdanOS)
   - [ ] lumina
@@ -50,8 +49,6 @@ some window managers (i3, sway…):
   - [ ] TOS Desktop Environment
   - [ ] Trinity Desktop Environment
   - [ ] Laniakea Desktop Environment
-  - [ ] Enlightenment 
-  - [ ] Deepin
   - [ ] AtomOS Desktop Environment
   - [x] Budgie
   - [x] Cinnamon
