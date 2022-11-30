@@ -27,6 +27,7 @@ some window managers (i3, sway…):
   - [ ] Durden desktop environment for the [Arcan](https://www.arcan-fe.com/) Display Server
   - [ ] Regolith Desktop Environment
   - [ ] jappeOsDesktop
+  - [ ] UDE
   - [ ] CutefishOS
   - [ ] VIM-OS(Desktop environment based on VIM only)
   - [ ] NightOS(Desktop environment NightOS)
@@ -47,30 +48,49 @@ some window managers (i3, sway…):
   - [ ] Abanu(Desktop Environment for Windows and Linux)
   - [ ] Pantheon 
   - [ ] TOS Desktop Environment
+  - [ ] Unity
   - [ ] Trinity Desktop Environment
   - [ ] Laniakea Desktop Environment
   - [ ] AtomOS Desktop Environment
   - [x] Budgie
+  - [ ] Common Desktop Environment
   - [x] Cinnamon
+  - [ ] EDE
+  - [ ] GNUstep
+  - [ ] Manokwari
+  - [ ] Razor-qt
+  - [ ] Rox Desktop
   - [x] Deepin
   - [ ] **WIP** Enlightenment (need to proceed through setup wizard)
+  - [ ] Windowmaker
+  - [ ] Ratpoison
   - [x] GNOME
   - [x] GNOME Flashback
   - [x] KDE Plasma
+  - [ ] K Desktop Environment
   - [x] LXDE (gtk3 version)
   - [x] LXQt
   - [x] MATE
   - [ ] **WIP** Sugar (need to proceed through setup wizard)
   - [x] UKUI
   - [x] Xfce
+
 - Window managers
   - [x] i3
   - [x] sway
+  - [ ] PekWM
+  - [ ] OpenLook Virtual Window Manager (OLVWM)
+  - [ ] TWM
+  - [ ] FVWM-Crystal
+  - [ ] Equinox
   - [ ] Awesome WM
   - [ ] DWM
+  - [ ] FVWM95
   - [ ] Xmonad
   - [ ] ibis
   - [ ] bspwm
+  - [ ] HerbsluftWM
+  - [ ] JWM
   - [ ] XtermWM
   - [ ] 9wm
   - [ ] dynamic desktop environment
@@ -78,7 +98,6 @@ some window managers (i3, sway…):
   - [ ] Spectrwm
   - [ ] Openbox
   - [ ] Fluxbox
-  - [ ] herbstluftwm
 
 I'm open to adding more environments to this list, if it's not too hard to setup
 on Arch Linux.
