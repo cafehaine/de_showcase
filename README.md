@@ -91,3 +91,11 @@ magick command:
 ```bash
 montage -geometry 320x240+10+10 -shadow -background none screenshots/*.png .preview.png
 ```
+
+## Contributors
+<a href="https://github.com/cafehaine/de_showcase/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=cafehaine/de_showcase" />
+</a>
+
+## License
+Project is licensed in GPL-3.0 license
