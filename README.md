@@ -19,7 +19,7 @@ is a good compromise in my opinion.
 All the DEs that are listed as 'Officially supported' on the ArchWiki, but also
 some window managers (i3, sway…):
 
-## Desktop Environments:
+### Desktop Environments:
 - [ ] XFCE4
 - [ ] snakeware desktop
 - [ ] SharpEnviro
@@ -64,7 +64,7 @@ some window managers (i3, sway…):
 - [x] UKUI
 - [x] Xfce
 
-## Window managers
+### Window managers
 - [x] i3
 - [x] sway
 - [ ] Awesome WM
