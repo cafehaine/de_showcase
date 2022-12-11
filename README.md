@@ -1,6 +1,15 @@
-# Desktop Environment Showcase
+<br/>
+
+<p align="center">
+   <img src="https://cdn-icons-png.flaticon.com/512/2704/2704234.png" width="80px"/>
+   # de_showcase: Desktop Environment Showcase
+</p>
+
+# 
 
 ![Captures taken by DE Showcase](.preview.png)
+
+<br/>
 
 ## What is DE Showcase?
 
@@ -14,10 +23,14 @@ I've built this since those UIs tend to change regularly, but I'm too lazy to
 create VMs to try those out regularly, so creating screenshots of the desktop
 is a good compromise in my opinion.
 
+<br/>
+
 ## What DE am I planning to support?
 
 All the DEs that are listed as 'Officially supported' on the ArchWiki, but also
 some window managers (i3, sway…):
+
+<br/>
 
 ### Desktop Environments:
 - [ ] XFCE4
@@ -84,6 +97,8 @@ some window managers (i3, sway…):
 I'm open to adding more environments to this list, if it's not too hard to setup
 on Arch Linux.
 
+<br/>
+
 ## How to generate the `.preview.png` file?
 
 After running `vagrant up` to generate all screenshots, run the following image
@@ -93,10 +108,15 @@ magick command:
 montage -geometry 320x240+10+10 -shadow -background none screenshots/*.png .preview.png
 ```
 
+<br/>
+
 ## Contributors
 <a href="https://github.com/cafehaine/de_showcase/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=cafehaine/de_showcase" />
 </a>
 
+<br/>
+
 ## License
-Project is licensed in GPL-3.0 license
+- Project is licensed in GPL-3.0 license
+- [Flaticon License](https://cdn-icons-png.flaticon.com/512/8893/8893173.png): *Free for personal and commercial use with attribution*
