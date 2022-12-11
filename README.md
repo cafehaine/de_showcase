@@ -32,7 +32,9 @@ some window managers (i3, sway…):
 
 <br/>
 
-### Desktop Environments:
+<details>
+<summary> Desktop Environments: </summary>
+
 - [ ] XFCE4
 - [ ] snakeware desktop
 - [ ] SharpEnviro
@@ -77,7 +79,11 @@ some window managers (i3, sway…):
 - [x] UKUI
 - [x] Xfce
 
-### Window managers
+</details>
+
+<details>
+<summary> Window managers </summary>
+
 - [x] i3
 - [x] sway
 - [ ] Awesome WM
@@ -93,6 +99,8 @@ some window managers (i3, sway…):
 - [ ] Openbox
 - [ ] Fluxbox
 - [ ] herbstluftwm
+
+</details>
 
 I'm open to adding more environments to this list, if it's not too hard to setup
 on Arch Linux.
@@ -115,6 +123,7 @@ montage -geometry 320x240+10+10 -shadow -background none screenshots/*.png .prev
   <img src="https://contrib.rocks/image?repo=cafehaine/de_showcase" />
 </a>
 
+<br/>
 <br/>
 
 ## License
