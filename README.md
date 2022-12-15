@@ -102,6 +102,8 @@ some window managers (i3, sway…):
 
 </details>
 
+<br/>
+
 ## Contribute
 
 I'm open to adding more environments to this list, if it's not too hard to setup
