@@ -1,6 +1,15 @@
-# Desktop Environment Showcase
+<br/>
+
+<p align="center">
+   <img src="https://cdn-icons-png.flaticon.com/512/2704/2704234.png" width="80px"/>
+   # de_showcase: Desktop Environment Showcase
+</p>
+
+# 
 
 ![Captures taken by DE Showcase](.preview.png)
+
+<br/>
 
 ## What is DE Showcase?
 
@@ -14,12 +23,18 @@ I've built this since those UIs tend to change regularly, but I'm too lazy to
 create VMs to try those out regularly, so creating screenshots of the desktop
 is a good compromise in my opinion.
 
+<br/>
+
 ## What DE am I planning to support?
 
 All the DEs that are listed as 'Officially supported' on the ArchWiki, but also
 some window managers (i3, sway…):
 
-### Desktop Environments:
+<br/>
+
+<details>
+<summary> Desktop Environments: </summary>
+
 - [ ] XFCE4
 - [ ] snakeware desktop
 - [ ] SharpEnviro
@@ -64,7 +79,11 @@ some window managers (i3, sway…):
 - [x] UKUI
 - [x] Xfce
 
-### Window managers
+</details>
+
+<details>
+<summary> Window managers </summary>
+
 - [x] i3
 - [x] sway
 - [ ] Awesome WM
@@ -81,8 +100,12 @@ some window managers (i3, sway…):
 - [ ] Fluxbox
 - [ ] herbstluftwm
 
+</details>
+
 I'm open to adding more environments to this list, if it's not too hard to setup
 on Arch Linux.
+
+<br/>
 
 ## How to generate the `.preview.png` file?
 
@@ -93,10 +116,16 @@ magick command:
 montage -geometry 320x240+10+10 -shadow -background none screenshots/*.png .preview.png
 ```
 
+<br/>
+
 ## Contributors
 <a href="https://github.com/cafehaine/de_showcase/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=cafehaine/de_showcase" />
 </a>
 
+<br/>
+<br/>
+
 ## License
-Project is licensed in GPL-3.0 license
+- Project is licensed in GPL-3.0 license
+- [Flaticon License](https://www.flaticon.com/free-icon/desktop-computer_2704234?term=desktop&page=1&position=15&page=1&position=15&related_id=2704234&origin=search): *Free for personal and commercial use with attribution*
