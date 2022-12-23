@@ -127,5 +127,5 @@ montage -geometry 320x240+10+10 -shadow -background none screenshots/*.png .prev
 <br/>
 
 ## License
-- Project is licensed in GPL-3.0 license
-- [Flaticon License](https://www.flaticon.com/free-icon/desktop-computer_2704234?term=desktop&page=1&position=15&page=1&position=15&related_id=2704234&origin=search): *Free for personal and commercial use with attribution*
+- The project (source-code) is licensed in GPL-3.0 license
+- The logo is licensed with [Flaticon License](https://www.flaticon.com/free-icon/desktop-computer_2704234?term=desktop&page=1&position=15&page=1&position=15&related_id=2704234&origin=search): *Free for personal and commercial use with attribution*
